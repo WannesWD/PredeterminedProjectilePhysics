@@ -1,0 +1,11 @@
+calculate projectile equation
+
+loop over each plane
+	check for collision
+		store collision pos
+
+check closest collision pos
+
+calculate velocity at position
+calculate new projectile equation
+loop until bounced velocity is too small

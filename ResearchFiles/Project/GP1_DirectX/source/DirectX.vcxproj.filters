@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Math">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{72056cb6-72a2-42b7-b05e-376f1ddd957e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderingClasses">
+      <UniqueIdentifier>{5e0d2fb5-526b-42d0-9dce-d21fd0f3e7ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{923b4168-3f73-4314-b6ac-5172e5b4b52f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderingClasses\EffectClasses">
+      <UniqueIdentifier>{dbee5b10-7d24-4626-b466-2a3db10de44e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneManager">
+      <UniqueIdentifier>{2d02bb7a-0525-4e9f-ad92-3539a0901070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PredeterminedPhysics">
+      <UniqueIdentifier>{de56dc53-f457-49ea-ac0f-00d5ba57db3e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="Vector3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelpers.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="ColorRGB.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>RenderingClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTypes.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>RenderingClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>RenderingClasses\EffectClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadeEffect.h">
+      <Filter>RenderingClasses\EffectClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="PartialCoverageEffect.h">
+      <Filter>RenderingClasses\EffectClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleShapes.h">
+      <Filter>PredeterminedPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleEffect.h">
+      <Filter>RenderingClasses\EffectClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsCalculator.h">
+      <Filter>PredeterminedPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>PredeterminedPhysics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Mesh.cpp">
+      <Filter>RenderingClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>RenderingClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>RenderingClasses\EffectClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadeEffect.cpp">
+      <Filter>RenderingClasses\EffectClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="PartialCoverageEffect.cpp">
+      <Filter>RenderingClasses\EffectClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleShapes.cpp">
+      <Filter>PredeterminedPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleEffect.cpp">
+      <Filter>RenderingClasses\EffectClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsCalculator.cpp">
+      <Filter>PredeterminedPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>PredeterminedPhysics</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
