@@ -5,7 +5,7 @@
 ### Project
 This project is a simple physics simulation that describes how a spherical projectile moves and collides with walls in 3D space. These physics are calculated and rendered in real time so they are adjustable by the user. With keyboard inputs the user can change the turrets angle, force, shoot projectiles and adjust the worlds gravity.
 
-### Representation
+### Presentation
 The calculations are rendered in a self made DirectX rasterizer that makes use of the GPU to render everything so the CPU only has to worry about the math. On the mathematical side I built upon simple 2D projectile movement to make it 3D which I then used to check intersections with the Cartesian equations of the planes in the scene. 
 
 ### Final Result
